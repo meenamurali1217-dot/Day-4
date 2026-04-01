@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #caf0f8;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+
+}
+nav a {
+    text-decoration: none;
+    margin: 0 1rem;
+    color: black;
+}
+.sign {
+    background-color: #007BFF;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    background: linear-gradient(to bottom aqua, white);
+}
+.hero img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    margin-right: 2rem;
+}
+.right h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.right a {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#h2  {
+    text-align: center;
+    font-size: 3rem;
+    margin: 2rem 0;
+}
+.about {
+    background: url(../images/Dr-2.png) right;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 50px;
+}
+#us {
+    background-color: #48cae4;
+    width: 250;
+    height: 300px;
+}
+.cards{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding: 50px;
+}
+
+.cards div {
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    height: 250px;
+    padding: 20px;
+}
+.story  {
+    width: 50%;
+    padding: 20px;
+}
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    width: 700px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.book {
+    padding: 0.5rem 1rem;
+    border-radius: 0 50px;
+    border: none;
+    cursor: pointer;
+    background-color: #48cae4;
+    width: 800px;
+    height: 350px;
+}
+form input {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.book button {
+    background-color: #007BFF;
+    border-radius: 5px;
+    color: white;
+    margin: 30px;
+    padding: 10px;
+}
+.book h2 {
+    font-size: 2.5rem;
+}
